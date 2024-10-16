@@ -21,7 +21,7 @@ export const ORDERING_VALUES = ["Priority", "Title"];
 
 export const STATUS_ICONS = [Backlog, Todo, InProgress, Done, Canceled];
 
-export const PRIORITY_ICONS = [NoPriority, Urgent, High, Medium, Low];
+export const PRIORITY_ICONS = [NoPriority, Urgent, High, Mid, Low];
 
 export function getIcon(text) {
   switch (text) {
