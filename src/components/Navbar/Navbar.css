@@ -1,0 +1,23 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  position: sticky;
+  background-color: #ffffff;
+  padding: 1rem 2rem;
+}
+
+.display_button {
+  display: flex;
+  gap: 2px;
+  align-items: center;
+  background-color: #ffffff;
+  border: 2px solid gainsboro;
+  border-radius: 5px;
+  padding: 3px;
+  box-shadow: 5px;
+}
+
+.navbar > button{
+  background-color: #ffffff;
+
+}

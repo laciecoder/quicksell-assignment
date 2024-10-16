@@ -1,0 +1,23 @@
+.title-start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.length{
+    color: gray;
+}
+
+.title-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-end{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 3px
+}

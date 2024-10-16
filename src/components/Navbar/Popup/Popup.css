@@ -1,0 +1,35 @@
+.popup {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  width: 250px;
+  background-color: #e2e8f0;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid gainsboro;
+  box-shadow: 2px;
+  gap: 10px;
+  border-radius: 10px;
+}
+
+.select-ordering {
+  display: flex;
+  width: inherit;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: bold;
+} 
+
+.select-ordering p{
+  color: grey;
+}
+
+select {
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 5px;
+  padding: 5px;
+}
